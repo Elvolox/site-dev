@@ -1,0 +1,79 @@
+informações de conexão com o banco de dados
+
+nome bd: bdbino
+usuário: root
+senha: não tem
+
+informações do painel admin do WP
+
+Título do site: Bino
+Nome de usuário: root
+Senha:1234
+
+Após ter criado o diretório do projeto, e capturado as imagens do PSD com sucesso realizei as seguintes tarefas
+
+1-Instalei o sass
+2-Instalei o gulp
+3-Instalei o bootstrap
+4-Instalei o jquery
+5-Instalei o popper.js
+6-Defini o gulp como dependencia do projeto
+7-Criei o index HTML e e configurei todos os caminhos dos modulos().
+8-Copiei os modulos do bootstrap, jquery, popper ja compilado para a pasta /layout/src/js
+9- configurei os caminhos dos modulos no index.html
+10- criei o arquivo na raiz do projeto , gulpfile.js, para criar as tarefas do gulp para que ele execute em tempo real
+11- Complilei o style.scss atraves do gulp com as cores que retirei do conta gotas do PS.
+12- Desenvolvi o site em HTML5 com auxilio dos arquivos .css ja configurados com cores e imagens.
+13- Criei a pasta tema e instalei o WP no meu projeto.
+14- Copiei o codigo do meu arquivo index.html para o index.php do projeto raiz do WP
+15- Criei o arquivo style.css e o configurei para que o projeto pudesse aparecer no WP.
+16- Iniciei a refatoração do codigo criando mais arquivos .php para torna-lo mais dinamico.
+17- Iniciei a configuração adaptando o codigo com o arquivo function.php.
+
+
+Todo o conteúdo utilizado:
+
+1. Bootstrap Framwork
+2. HTML5 
+3. Css & Css3
+4. wow animate.css
+5. SmoothScroll
+6. wol Carusel Slider
+7. Mixtub with masonry
+8. jquery magnific-popup.js
+9. fancybox popup vedio
+10. Bootstrap carusel slider
+11. jquery easing js
+12. gmaps API
+13. font Awsome icons
+
+Passo a passo para rodar a aplicação.
+
+1 - Instalar o wamp.
+2 - Configurar os caminhos da linha DocumentRoot dos arquivos, apache/httpd.conf e ttpd-vhost.conf para facilitar a abertura do projeto no WP.
+3 - Iniciar os 3 serviços do servidor wamp.
+4 - Realizar o login em localhost/wp-admin com as informações contidas no inicio deste arquivo
+5- Realizar, se necessário, o login em localhost/phpmyadmin para ter acesso ao banco de dados.
+6- Abrir a folder do projeto que esta no WP em ...\Site-bino-final\tema\wp-content\themes\bino. no editor de sua preferência.
+
+
+Solução da aplicação.
+
+Na solução do projeto foi ultilizado, JS, CSS, BOOTSTRAP, HTML5, feito com desenvolvimento dinamico, tentei separar o maximo de codigo possível em arquivos .php para evitar erros e bugs.
+Com auxilio dos modulos e do PS consegui adaptar alguns efeitos legais no site e tentei deixar a LandingPage o mais fiel possivel do PSD fornecido e com ajuda do PS consegui capturar as cores do site.
+
+Na solução, nota-se no arquivo function.php algumas funções redigidas , mas não ultilizadas por motivo de falta de tempo.
+
+O codigo está comentado para melhor identificação das seções.
+
+Tive problemas com o background do header no momento da codificação com o logo pelo painel do WP , devido o caminho do background estar configurado dentro do arquivo style.css, a solução era desmembrar o arquivo para que o background voltasse a funcionar, porem devido ao curto tempo e o medo de bugs resolvi deixar sem background.
+
+Me dediquei o maxímo possível para entregar o projeto 100% , mas infelizmente não ficou totalmente completo.
+
+Espero que gostem
+
+
+
+
+
+
